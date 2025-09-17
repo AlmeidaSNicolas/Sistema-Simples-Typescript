@@ -51,6 +51,9 @@ function adicionarTarefa(titulo: string): void {
   listarTarefas();
 }
 
+
+
+
 // Event listeners
 document.getElementById("loginBtn")?.addEventListener("click", () => {
   const nome = (document.getElementById("nome") as HTMLInputElement).value;
